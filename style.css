@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./photos/bg.jpg);
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(236, 175, 8);
+}
+.header ul li a:hover{
+    text-decoration: underline;
+}
+.button button{
+   background-color: rgb(240, 44, 93);
+   padding: 4px 10px;
+   cursor: pointer;
+   color: white;
+   border: 1px solid white;
+   border-radius: 5px;
+   font-weight: 700;
+   width: fit-content;
+   padding: 5px 20px;
+   transition: all 0.5s ease-in-out;
+}
+.button{
+    display: flex;
+    align-items: center;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin: 10px 5px;
+   
+}
+.left-sec p{
+    color: rgb(236, 175, 8);
+    font-size: 70px;
+    font-weight: 1000;
+    margin-top: 25px;
+}
+.btn-div button{
+    background-color: rgb(240, 44, 93);
+   cursor: pointer;
+   color: white;
+   border: 1px solid white;
+   border-radius: 5px;
+   font-weight: 700;
+   width: fit-content;
+   padding: 15px 45px;
+   margin: 40px 10px;
+   font-size: 15px;
+   transition: all 0.5s ease-in-out;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    height: ;
+}
+button:hover{
+   background-color: blue;
+   border: 2px solid red;
+   border-radius: 40px;
+
+}
